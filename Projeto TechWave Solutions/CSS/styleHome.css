@@ -50,7 +50,7 @@ nav a:hover {
 }
 
 .section-techwave {
-    background-image: url('/IMG/background.jpg');
+    background-image: url('../IMG/background.jpg');
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -206,17 +206,23 @@ nav a:hover {
 
 .section-fale-conosco{
     background-color: #f9f9f9;
-    text-align: center;
     padding: 20px;
     border-radius: 5px;
 }
 
+.form-container{
+    display: flex;
+    justify-content: center;
+}
+
 .section-fale-conosco h2 {
+    text-align: center;
     font-size: 3em;
     margin-bottom: 20px;
 }
 
 .section-fale-conosco p {
+    text-align: center;
     color: #777777;
     margin-bottom: 20px;
 }
@@ -228,10 +234,21 @@ nav a:hover {
 
 .section-fale-conosco label {
     color: #121212;
-    text-align: center;
+    display: block;
+    margin-top: 15px;
+}
+.section-fale-conosco input {
+    width: 400px;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+    outline: none;
+    font-size: 14px;
 }
 
-.section-fale-conosco input, textarea {
+/* 
+.section-fale-conosco textarea {
     width: 40%;
     padding: 10px;
     margin-top: 5px;
@@ -248,7 +265,9 @@ nav a:hover {
     padding: 10px;
     font-size: 16px;
     cursor: pointer;
-}
+} */
+
+
 
 .footer{
     background-color: #f1f1f1;
@@ -259,10 +278,11 @@ nav a:hover {
 }
 
 .footer-logo{
-    width: 200px;
+    width: 400px;
 }
 
 .footer-contato{
+    font-size: 1.5em;
     text-align: right;
 }
 
