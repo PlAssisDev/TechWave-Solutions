@@ -169,6 +169,7 @@ nav a:hover {
 
 .section-qualidades h2{
     font-size: 3em;
+    margin-bottom: 1em;
 }
 
 .section-qualidades .qualidade{
@@ -179,9 +180,20 @@ nav a:hover {
     border-radius: 5px;
 }
 
+.qualidades-container{
+    display: flex;
+    justify-content: center;
+}
+
+.section-qualidades i {
+    font-size: 2.5em;
+    padding-bottom: 50px;
+
+}
+
 .section-qualidades h3 {
     margin-bottom: 10px;
-    font-size: 2em;
+    font-size: 1.5em;
 }
 
 .section-qualidades p {
@@ -232,6 +244,12 @@ nav a:hover {
     gap: 10px;
 }
 
+.form-row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 .section-fale-conosco label {
     color: #121212;
     display: block;
@@ -246,6 +264,11 @@ nav a:hover {
     outline: none;
     font-size: 14px;
 }
+
+.section-fale-conosco label, input {
+    margin-right: 1.5em;
+}
+
 
 /* 
 .section-fale-conosco textarea {

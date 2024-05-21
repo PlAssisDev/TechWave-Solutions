@@ -7,6 +7,7 @@
     <link rel="icon" href="#" type="image/x-icon">
 
     <link rel="stylesheet" href="/Projeto TechWave Solutions/CSS/styleHome.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -64,21 +65,21 @@
 
     <section class="section-qualidades">
         <h2>Qualidades Especiais</h2>
-        <div>
+        <div class="qualidades-container">
             <div class="qualidade" id="nome da qualidade">
-                <i></i>
-                <h3>qualidade</h3>
-                <p>Sobre a qualidade</p>
+                <i class='bx bx-diamond'></i>
+                <h3>Melhor qualidade</h3>
+                <p>Garantimos sua total satisfação</p>
             </div>
             <div class="qualidade" id="nome da qualidade">
-                <i></i>
-                <h3>qualidade</h3>
-                <p>Sobre a qualidade</p>
+                <i class='bx bx-support'></i>
+                <h3>Suporte 24/7</h3>
+                <p>Nosso suporte por telefone está sempre à sua disposição</p>
             </div>
             <div class="qualidade" id="nome da qualidade">
-                <i></i>
-                <h3>qualidade</h3>
-                <p>Sobre a qualidade</p>
+                <i class='bx bx-time-five'></i>
+                <h3>Preços competitivos</h3>
+                <p>O melhor custo-benefício</p>
             </div>
         </div>
         <button onclick="location.href = 'contato.html' ">Fale conosco</button>
@@ -91,7 +92,7 @@
         <div class="form-container">
             <form action="#" method="post">
                 <div class="form-row">
-                    <div class="item">
+                    <div class="form-item">
                         <label for="nome">Nome</label>
                         <input type="text" id="nome" name="nome" required>
                     </div>
@@ -102,11 +103,12 @@
                     </div>
                 </div>
 
-                <!-- <div>
+                 <div>
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email" required>
                 </div>
                 
+                <!--
                 <div>
                     <label for="mensagem">Mensagem</label>
                     <textarea name="mensagem" id="mensagem" required></textarea>
